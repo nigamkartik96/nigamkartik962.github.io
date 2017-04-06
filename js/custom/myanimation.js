@@ -1,5 +1,5 @@
 var ballArray = [];
-var amp,song;
+var amp,song,x;
 function setup(){
 	song = loadSound("assests/sounds/Caravan.mp3",done);
 	createCanvas(500,500);
@@ -26,3 +26,4 @@ function done(){
 	amp = new p5.Amplitude();
 	amp.setInput(song);
 }
+
